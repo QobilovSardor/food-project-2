@@ -41,7 +41,7 @@
 					</div>
 				</div>
 				<div class="header__cart-btn ms-auto">
-					<button class="btn">
+					<button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
 						Корзина
 						<span class="product__value">4</span>
 					</button>
@@ -52,6 +52,15 @@
 		<!-- main -->
 		<main class="main">
 
+			<!-- intro section -->
+			<section class="intro">
+				<div class="container">
+					<div class="intro__content">
+						<h1 class="intro__content-title">Доставка ВКУСНЕЙШИХ <br> БЛЮд за 60 минут</h1>
+						<a class="intro__content-btn" href="#!">Ещё не пробовал?</a>
+					</div>
+				</div>
+			</section>
 			
 		</main>
 
@@ -60,6 +69,38 @@
 			
 		</footer>
 
+	</div>
+
+	<!-- modal section -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+						<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
+							<g clip-path="url(#clip0_72_2828)">
+								<path
+									d="M20.0111 16.8379L16.5016 13.3284L20.0111 9.81893C20.8733 8.9567 20.8549 7.52675 19.9923 6.66422C19.1298 5.80168 17.6999 5.78327 16.8376 6.64549L13.3281 10.155L9.81862 6.64549C8.9564 5.78327 7.52645 5.80168 6.66391 6.66422C5.80137 7.52675 5.78296 8.9567 6.64519 9.81893L10.1547 13.3284L6.64519 16.8379C5.78296 17.7002 5.80137 19.1301 6.66391 19.9926C7.52645 20.8552 8.9564 20.8736 9.81862 20.0114L13.3281 16.5019L16.8376 20.0114C17.6998 20.8736 19.1298 20.8552 19.9923 19.9926C20.8549 19.1301 20.8733 17.7002 20.0111 16.8379Z"
+									fill="white" />
+							</g>
+							<defs>
+								<clipPath id="clip0_72_2828">
+									<rect width="18.8492" height="18.8492" fill="white" transform="translate(13.3281) rotate(45)" />
+								</clipPath>
+							</defs>
+						</svg>
+					</button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- bootstrap js -->
